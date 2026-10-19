@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Edwin Martin | Software Developer </title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header id="home">
+        <nav class="navbar">
+            <a href="#home" class="logo">Edwin Martin<span></span></a>
+
+            <button class="menu-button" id="menuButton" aria-label="Open menu">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Animated background -->
+        <canvas id="particles"></canvas>
+
+        <!-- Hero section -->
+        <div class="hero container">
+            <div class="hero-text">
+                <p class="small-title">ASPIRING SOFTWARE DEVELOPER</p>
+
+                <h1>
+                    Hi, I'm Edwin Martin.
+                    <br>
+                    <span>Building useful things with code intrested in developing new technologies</span>
+                </h1>
+
+                <h3>
+                    <span id="typingText"></span><span class="cursor">|</span>
+                </h3>
+
+                <p class="intro">
+                    I am a Computer Science graduate interested in Java,
+                    backend development, REST APIs, and databases. I enjoy
+                    learning new technologies and building practical applications.
+                </p>
+
+                <a href="#projects" class="button">View My Projects</a>
+                <a href="#contact" class="button button-outline">Contact Me</a>
+
+                <p class="availability">
+                    <span class="status-dot"></span>
+                    Open to software development opportunities
+                </p>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-circle"></div>
+
+                <img src="assets/ChatGPT Image Sep 17, 2026, 07_08_07 PM.png" alt="Edwin Martin">
+
+                <div class="floating-note">
+                    Java · Spring Boot · SQL
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-note">SCROLL TO EXPLORE ↓</a>
+    </header>
+
+    <!-- About section -->
+    <section class="about section-light" id="about">
+        <div class="container about-layout">
+
+            <div class="about-image">
+                <img src="assets/WhatsApp Image 2026-10-18 at 9.46.57 PM.jpeg" alt="Edwin Martin portrait">
+            </div>
+
+            <div class="about-text">
+                <p class="small-title">ABOUT ME</p>
+
+                <h2>
+                    I build things that
+                    <span>work.</span>
+                </h2>
+
+                <p class="description">
+                    I'm a Java and Python developer with project experiences
+                    in REST APIs, relational databases, and web technologies.
+                    I enjoy solving problems and creating applications that
+                    are useful and easy to maintain.
+                </p>
+
+                <p class="description">
+                    I am developing my software engineering skills through
+                    technical training and practical projects.
+                </p>
+
+                <div class="details">
+                    <p><strong>Name:</strong> Edwin Martin</p>
+                    <p><strong>Degree:</strong> B.Tech Computer Science</p>
+                    <p><strong>Location:</strong> Alappuzha, Kerala</p>
+                    <p><strong>Career goal:</strong> Backend Developer</p>
+                </div>
+
+                <a href="assets/Edwin-Martin-Resume.pdf"
+                   class="button"
+                   target="_blank"
+                   rel="noopener">
+                    View My Resume ↗
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    
+<!-- Technical Skills Section -->
+<section class="skills" id="skills">
+    <div class="skill-logo-cloud" aria-hidden="true">
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/java/java-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/c/c-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/spring/spring-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/flask/flask-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/github/github-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" alt=""></span>
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" alt=""></span>
+    </div>
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="small-title">MY TECH STACK</p>
+            <h2>Technical <span>Expertise</span></h2>
+            <p>Technologies and tools I use to build practical applications.</p>
+        </div>
+
+        <div class="skill-list">
+
+            <!-- Programming Languages -->
+            <article class="skill-card" tabindex="0">
+                <div class="skill-spotlight">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/java/java-original.svg" alt="">
+                    <span>Java</span>
+                </div>
+                <div class="skill-top">
+                    <div class="skill-icon">01</div>
+                    <span class="skill-label">CORE</span>
+                </div>
+
+                <h3>Programming Languages</h3>
+                <p>Writing clean code and solving problems.</p>
+
+                <div class="tech-tags">
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>C</span>
+                    <span>JavaScript</span>
+                    <span>SQL</span>
+                </div>
+            </article>
+
+            <!-- Backend Development -->
+            <article class="skill-card" tabindex="0">
+                <div class="skill-spotlight">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/spring/spring-original.svg" alt="">
+                    <span>Spring Boot</span>
+                </div>
+                <div class="skill-top">
+                    <div class="skill-icon">02</div>
+                    <span class="skill-label">SERVER</span>
+                </div>
+
+                <h3>Backend Development</h3>
+                <p>Building application logic and APIs.</p>
+
+                <div class="tech-tags">
+                    <span>Spring Boot</span>
+                    <span>REST APIs</span>
+                    <span>Node.js</span>
+                    <span>Flask</span>
+                </div>
+            </article>
+
+            <!-- Databases -->
+            <article class="skill-card" tabindex="0">
+                <div class="skill-spotlight">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="">
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="skill-top">
+                    <div class="skill-icon">03</div>
+                    <span class="skill-label">DATA</span>
+                </div>
+
+                <h3>Databases</h3>
+                <p>Organizing and managing application data.</p>
+
+                <div class="tech-tags">
+                    <span>PostgreSQL</span>
+                    <span>MySQL</span>
+                    <span>Database Design</span>
+                </div>
+            </article>
+
+            <!-- Tools and Web -->
+            <article class="skill-card" tabindex="0">
+                <div class="skill-spotlight">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" alt="">
+                    <span>Git</span>
+                </div>
+                <div class="skill-top">
+                    <div class="skill-icon">04</div>
+                    <span class="skill-label">TOOLS</span>
+                </div>
+
+                <h3>Tools & Web Technologies</h3>
+                <p>Developing, testing, and managing projects.</p>
+
+                <div class="tech-tags">
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>Docker</span>
+                    <span>Postman</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Projects section -->
+    <section class="projects section-light" id="projects">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="small-title">MY WORK</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p>Projects demonstrating my programming and development skills.</p>
+            </div>
+
+            <div class="project-list">
+
+                <article class="project-card">
+                    <div class="project-art art-one">☎</div>
+
+                    <p class="project-type">MAJOR PROJECT</p>
+                    <h3>Campus Response System</h3>
+
+                    <p>
+                        An IVR-based system designed to automate common college
+                        enquiries, FAQs, call logs, and notifications.
+                    </p>
+
+                    <div class="tags">
+                        <span>Node.js</span>
+                        <span>Exotel Voice API</span>
+                        <span>PostgreSQL</span>
+                        <span>OpenAI</span>
+                    </div>
+                    <button class="button project-read-more" type="button" data-dialog="crs-details">
+                        Read More
+                    </button>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-art art-two">✈</div>
+
+                    <p class="project-type">TEAM PROJECT</p>
+                    <h3>Online Flight Ticket Booking</h3>
+
+                    <p>
+                        A web application for searching, booking, and managing
+                        flights using database-driven functionality.
+                    </p>
+
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>Node.js</span>
+                        <span>PostgreSQL</span>
+                        <span>MySQL</span>
+                        <span>Docker</span>
+                    </div>
+                    <button class="button project-read-more" type="button" data-dialog="flight-details">
+                        Read More
+                    </button>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-art art-three">CV</div>
+
+                    <p class="project-type">MINOR PROJECT</p>
+                    <h3>AI Resume Analyzer</h3>
+
+                    <p>
+                        A Flask application that analyzes uploaded resumes
+                        and provides feedback to help users improve them.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <button class="button project-read-more" type="button" data-dialog="resume-details">
+                        Read More
+                    </button>
+                </article>
+
+            </div>
+
+            <dialog class="project-dialog" id="crs-details" aria-labelledby="crs-details-title">
+                <div class="project-dialog-content">
+                    <button class="project-dialog-close" type="button" aria-label="Close project details">×</button>
+                    <p class="project-type">MAJOR PROJECT</p>
+                    <h2 id="crs-details-title">Campus Response System (CRS)</h2>
+                    <p class="project-dialog-tagline">An AI-powered voice enquiry system that answers student and parent questions 24/7 in English and Malayalam.</p>
+
+                    <h3>Overview</h3>
+                    <p>Colleges receive repetitive enquiries about admissions, fees, courses, timings, and facilities. CRS automates these enquiries through a voice interface: callers ask a question and receive a spoken answer. Calls and queries are logged for staff review, and unresolved questions are escalated.</p>
+
+                    <h3>How it works</h3>
+                    <ol>
+                        <li>Callers reach an Exotel IVR greeting: “Welcome to Campus Response System”.</li>
+                        <li>Speech is converted to text; Malayalam queries pass through translation to English.</li>
+                        <li>The query processor searches the college FAQ database.</li>
+                        <li>When no FAQ matches, the query is sent to the OpenAI model.</li>
+                        <li>A response is selected and converted to speech for playback through the IVR.</li>
+                        <li>The caller number, query, response, status, and timestamps are saved to the call log.</li>
+                        <li>Unresolved or unsatisfactory queries are escalated to staff for follow-up.</li>
+                    </ol>
+
+                    <h3>Key features</h3>
+                    <ul>
+                        <li>24/7 voice-based enquiry handling in English and Malayalam.</li>
+                        <li>FAQ knowledge base with AI fallback for unknown queries.</li>
+                        <li>Automatic call logging and admin escalation.</li>
+                        <li>A login-protected Command Center with system status, call volume, call logs, FAQ management, and a reply interface.</li>
+                        <li>FAQ management in English and Malayalam, sorting newest calls first, and a light/dark theme toggle.</li>
+                        <li>Architecture includes SMS and WhatsApp notifications alongside voice.</li>
+                    </ul>
+
+                    <h3>Technology and team</h3>
+                    <p><strong>Tech stack:</strong> Node.js, Express, PostgreSQL, Exotel Voice API, OpenAI, speech-to-text, gTTS / google-tts-api, Git/GitHub, and VS Code.</p>
+                    <p><strong>Team:</strong> Group 12, four students from the Department of Computer Science and Engineering, College of Engineering Cherthala (APJ Abdul Kalam Technological University), guided by Ms. Janu R Panicker.</p>
+
+                    <h3>Database design</h3>
+                    <ul>
+                        <li><strong>College FAQ:</strong> ID, query, answer, and language.</li>
+                        <li><strong>Call log:</strong> phone number, time, query, status, and response type.</li>
+                        <li><strong>Admin:</strong> dashboard login credentials.</li>
+                    </ul>
+
+                    <h3>Reported results</h3>
+                    <ul>
+                        <li>About 85% of queries were resolved automatically; about 15% went to admin review.</li>
+                        <li>FAQ matching accuracy was reported at 90–95%.</li>
+                        <li>Responses took 1–3 seconds when an FAQ was found; recording a new query for admin review took 2 seconds or less.</li>
+                        <li>Average response time improved from about 2.8 seconds to 1.9 seconds during testing.</li>
+                    </ul>
+
+                    <h3>My role</h3>
+                    <ul>
+                        <li>Built Node.js backend endpoints for telephony webhooks and call events.</li>
+                        <li>Integrated the voice API with the backend to handle incoming calls.</li>
+                        <li>Designed the PostgreSQL schema for FAQs, call logs, and notification records, and wrote SQL queries to retrieve and update data.</li>
+                    </ul>
+
+                    <h3>System design and impact</h3>
+                    <p>Design artifacts included a layered architecture, Level 0–2 data flow diagrams, use-case, sequence and activity diagrams, an ER diagram, and a July 2025–March 2026 Gantt chart. The COCOMO estimate was about 3 KLOC, roughly 10 person-months, and about 6 months duration.</p>
+                    <p>CRS reduces routine manual enquiries, provides consistent answers outside office hours, and gives administrators data about enquiry trends.</p>
+
+                    <h3>Limitations and future scope</h3>
+                    <p>The system depends on its FAQ database, internet access, and third-party voice services; it has limited multilingual support and can be affected by noise and accents. Planned improvements include stronger AI intent prediction, more languages, web and mobile integration, analytics visualisation, and stronger authentication and encryption.</p>
+                </div>
+            </dialog>
+
+            <dialog class="project-dialog" id="flight-details" aria-labelledby="flight-details-title">
+                <div class="project-dialog-content">
+                    <button class="project-dialog-close" type="button" aria-label="Close project details">×</button>
+                    <p class="project-type">TEAM PROJECT</p>
+                    <h2 id="flight-details-title">Online Flight Ticket Booking System</h2>
+                    <p>A responsive web application that brings flight discovery and booking management into one place. Users can search available flights, make a booking, and return to manage their bookings through a web interface.</p>
+
+                    <h3>User workflow</h3>
+                    <ol>
+                        <li>Search flight schedules to find a suitable flight.</li>
+                        <li>Use the booking flow to create a ticket booking.</li>
+                        <li>Manage existing bookings through the application.</li>
+                    </ol>
+
+                    <h3>Development highlights</h3>
+                    <ul>
+                        <li>Designed relational tables for users, bookings, and flight schedules, with PostgreSQL as the database.</li>
+                        <li>Wrote SQL queries to work with flight schedule, user, and booking data.</li>
+                        <li>Containerised the application with Docker to help it run consistently across environments.</li>
+                        <li>Collaborated as a team using Git and GitHub for version control.</li>
+                        <li>Built the experience with a combination of Java, Node.js, HTML, CSS, and JavaScript.</li>
+                    </ul>
+
+                    <h3>Technology</h3>
+                    <p>Java, Node.js, PostgreSQL, MySQL, Docker, HTML, CSS, and JavaScript.</p>
+                </div>
+            </dialog>
+
+            <dialog class="project-dialog" id="resume-details" aria-labelledby="resume-details-title">
+                <div class="project-dialog-content">
+                    <button class="project-dialog-close" type="button" aria-label="Close project details">×</button>
+                    <p class="project-type">MINOR PROJECT</p>
+                    <h2 id="resume-details-title">AI Resume Analyzer</h2>
+                    <p>A web-based resume review tool built with Flask. A user uploads a resume, the application analyzes its content, and the result is presented as feedback to help guide improvements.</p>
+
+                    <h3>How it works</h3>
+                    <ol>
+                        <li>The user opens the analyzer in the web interface and submits a resume for review.</li>
+                        <li>The Flask application processes the uploaded resume.</li>
+                        <li>The application presents analysis feedback in the browser so the user can review it.</li>
+                    </ol>
+
+                    <h3>Project highlights</h3>
+                    <ul>
+                        <li>Connects a Python/Flask application flow with a browser-based user interface.</li>
+                        <li>Uses Bootstrap to structure the interface and present feedback clearly.</li>
+                        <li>Uses HTML, CSS, and JavaScript alongside the Flask application.</li>
+                        <li>Designed around a straightforward upload, analysis, and feedback experience.</li>
+                    </ul>
+
+                    <h3>Technology</h3>
+                    <p>Python, Flask, HTML, CSS, JavaScript, and Bootstrap.</p>
+                </div>
+            </dialog>
+        </div>
+    </section>
+
+    <!-- Education and experience -->
+    <section class="education" id="education">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="small-title">MY JOURNEY</p>
+                <h2>Learning by <span>building.</span></h2>
+                <p>My education, training, and professional experience.</p>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2022</span>
+                    <div>
+                        <h3>Data Analyst Intern</h3>
+                        <p class="timeline-place">Proxenix</p>
+                        <p>Worked on data cleaning, preprocessing, and analytical reports.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2023 – PRESENT</span>
+                    <div>
+                        <h3>Full Stack Development Training</h3>
+                        <p class="timeline-place">NxtWave CCBP 4.0</p>
+                        <p>Project-based practice in web and full-stack development.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2026</span>
+                    <div>
+                        <h3>B.Tech Computer Science Engineering</h3>
+                        <p class="timeline-place">College of Engineering Cherthala</p>
+                        <p>Alappuzha, Kerala.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">PRESENT</span>
+                    <div>
+                        <h3>Software Development Training</h3>
+                        <p class="timeline-place">QSpiders</p>
+                        <p>Training in Java, SQL, Spring Boot, and software development.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact section-light" id="contact">
+        <div class="container contact-layout">
+
+            <div>
+                <p class="small-title">GET IN TOUCH</p>
+
+                <h2>
+                    Let's build something
+                    <span>meaningful.</span>
+                </h2>
+
+                <p class="description">
+                    I'm open to entry-level backend and software development
+                    opportunities. Feel free to contact me.
+                </p>
+            </div>
+
+            <div class="contact-links">
+                <a href="mailto:edwinmartin.146@gmail.com">
+                    ✉ &nbsp; Email Me ↗
+                </a>
+
+                <a href="https://www.linkedin.com/in/edwinmartin18"
+                   target="_blank" rel="noopener">
+                    in &nbsp; LinkedIn Profile ↗
+                </a>
+
+                <a href="https://github.com/EdwinMrtin"
+                   target="_blank" rel="noopener">
+                    ⌘ &nbsp; GitHub Profile ↗
+                </a>
+
+                <a href="tel:+916238818341">
+                    ☎ &nbsp; +91 62388 18341
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="logo">Edwin<span>.</span></a>
+        <p>Designed and built by Edwin Martin.</p>
+        <a href="#home">BACK TO TOP ↑</a>
+    </footer>
+
+</body>
+</html>
